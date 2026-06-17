@@ -1,5 +1,5 @@
 ---
-title: "Rv Address Mapping"
+title: "RISC-V RV32 的物理地址空间与内存映射"
 description: 
 date: 2026-06-17T16:21:17+08:00
 image: 
@@ -8,7 +8,7 @@ license:
 comments: true
 draft: false
 categories:
-    - Risc-V
+    - RISC-V
 build:
     list: always    # Change to "never" to hide the page from the list
 ---
@@ -408,4 +408,3 @@ Physical Address Space
  ↓
 RAM / Device / Invalid
 ```
-

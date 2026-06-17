@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "The ultimate lie in programming is “It's gonna done”"
+    subtitle = "The ultimate lie in programming is “It's gonna be done”"
     avatar   = "img/sakabanjiayu.jpeg"
 
 [article]

@@ -1,5 +1,5 @@
 ---
-title: "通过 --amed 选项使得你的commit-tree更简洁"
+title: "通过 --amend 选项使得你的commit-tree更简洁"
 description: 
 date: 2026-06-17T15:57:01+08:00
 image: git-amend.png
@@ -42,4 +42,3 @@ $ git push [-f|--force]
 ```
 
 因为再次提交会改变哈希值
-

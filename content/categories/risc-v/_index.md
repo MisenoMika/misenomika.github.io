@@ -1,5 +1,5 @@
 ---
-title: Risc-V
+title: RISC-V
 description: Share some interesting tools that I find.
 image:
 
