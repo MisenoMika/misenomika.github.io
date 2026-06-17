@@ -2,9 +2,17 @@
 title: Links
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
+    description: World's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: YSYX
+    description: 一生一芯项目官网
+    website: https://ysyx.oscc.cc
+    image: https://ysyx.oscc.cc/res/images/logo/ysyx.png
+  - title: Missing-Semester
+    description: The Missing Semester of Your CS Education
+    website: https://missing-semester-cn.github.io/
+    image: https://avatars.githubusercontent.com/u/65452715?s=200&v=4
 menu:
     main: 
         weight: 4
@@ -14,20 +22,10 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
+<div class="friend-intro">
+<h2>友情链接</h2>
 
-This page's frontmatter:
+欢迎交换友情链接！
 
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
+</div>
 
-`image` field accepts both local and external images.

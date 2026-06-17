@@ -1,3 +1,45 @@
 /*
     You can add your own custom styles here.
 */
+/* =========================
+   Friend Links
+   ========================= */
+
+.article-list--compact.links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 每个友链独立成卡片 */
+.article-list--compact.links article {
+    background: var(--card-background);
+    border-radius: 16px;
+    box-shadow: var(--shadow-l1);
+
+    padding: 1rem;
+
+    transition: all 0.2s ease;
+}
+
+/* 鼠标悬停效果 */
+.article-list--compact.links article:hover {
+    transform: translateY(-3px);
+}
+
+/* 平板 */
+@media (max-width: 1024px) {
+    .article-list--compact.links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 手机 */
+@media (max-width: 768px) {
+    .article-list--compact.links {
+        grid-template-columns: 1fr;
+    }
+}

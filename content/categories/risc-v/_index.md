@@ -1,10 +1,10 @@
 ---
-title: Tool Usage
+title: Risc-V
 description: Share some interesting tools that I find.
 image:
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#ffd700"
     color: "#fff"
 ---
