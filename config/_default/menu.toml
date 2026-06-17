@@ -16,9 +16,9 @@
         icon = "brand-github"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "school"
+    name       = "SUAT"
+    url        = "https://www.suat-sz.edu.cn/"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "school"
