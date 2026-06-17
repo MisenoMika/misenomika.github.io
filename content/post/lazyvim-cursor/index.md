@@ -8,7 +8,7 @@ license:
 comments: true
 draft: false
 categories:
-    - Example Category
+    - Tool-Usage
 tags:
     - LazyVim
 build:

@@ -1,7 +1,7 @@
 ---
 title: Tool Usage
 description: Share some interesting tools that I find.
-image:
+image: cover.png
 
 # Badge style
 style:

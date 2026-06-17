@@ -24,8 +24,6 @@ comments: false
 
 <div class="friend-intro">
 <h2>友情链接</h2>
-
 欢迎交换友情链接！
 
 </div>
-

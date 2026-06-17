@@ -8,9 +8,9 @@ license:
 comments: true
 draft: false
 tags:
-    - tool-usage
+    - Git
 categories:
-    - Example Category
+    - Tool-Usage
 build:
     list: always    # Change to "never" to hide the page from the list
 ---
