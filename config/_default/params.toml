@@ -74,7 +74,7 @@ SortBy              = "default"
 
           strict           = 1
 
-          loading          = "lazy"
+          loading          = "eager"
 
           lightTheme       = "light"
           darkTheme        = "dark_dimmed"
