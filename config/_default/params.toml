@@ -11,7 +11,7 @@ SortBy              = "default"
 
 [footer]
     since      = 2026
-    customText = ""
+    customText = '<img src="https://count.getloli.com/@BlossilveR?name=BlossilveR&theme=miku&padding=7&offset=0&align=center&scale=0.4&pixelated=1&darkmode=auto" alt="https://count.getloli.com/@VISITORS?name=VISITORS&theme=capoo-2&padding=7&offset=0&align=bottom&scale=1&pixelated=1&darkmode=auto">'
 
 [dateFormat]
     published   = ":date_full"
