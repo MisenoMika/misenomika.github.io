@@ -18,7 +18,7 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
+    emoji    = "🌝"
     subtitle = "The ultimate lie in programming is “It's gonna be done”"
     avatar   = "img/sakabanjiayu.jpeg"
 
@@ -49,9 +49,34 @@ SortBy              = "default"
     default = "auto"
 
 ## Comments
-[comments]
-    enabled  = true
-    provider = "disqus"
+# [comments]
+#     enabled  = true
+#     provider = "disqus"
+  [comments]
+      enabled = true
+      provider = "giscus"
 
+      [comments.giscus]
+          repo             = "MisenoMika/misenomika.github.io"
+          repoID           = "R_kgDOS9B30g"
+
+          category         = "Announcements"
+          categoryID       = "DIC_kwDOS9B30s4C_Zoi"
+
+          mapping          = "pathname"
+
+          reactionsEnabled = 1
+          emitMetadata     = 0
+
+          inputPosition    = "top"
+
+          lang             = "en"
+
+          strict           = 1
+
+          loading          = "lazy"
+
+          lightTheme       = "light"
+          darkTheme        = "dark_dimmed"
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
