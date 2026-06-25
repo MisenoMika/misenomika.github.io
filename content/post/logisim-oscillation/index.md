@@ -4,7 +4,7 @@ title: "仿真世界与物理世界的边界
  "
 description: 
 date: 2026-06-25T11:55:55+08:00
-image: 
+image: cover.png
 math: true
 license: 
 comments: true
@@ -13,6 +13,7 @@ categories:
     - Tool-Usage
 tags:
     - Logisim
+    - YSYX
 build:
     list: always    # Change to "never" to hide the page from the list
 ---

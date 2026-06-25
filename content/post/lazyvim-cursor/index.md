@@ -2,7 +2,7 @@
 title: "解决Lazyvim退出后cursor样式变成block的问题"
 description: 
 date: 2026-06-17T16:37:03+08:00
-image: 
+image: cover.png
 math: 
 license: 
 comments: true

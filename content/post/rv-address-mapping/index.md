@@ -2,7 +2,7 @@
 title: "RISC-V RV32 的物理地址空间与内存映射"
 description: 
 date: 2026-06-17T16:21:17+08:00
-image: 
+image: cover.png
 math: 
 license: 
 comments: true
