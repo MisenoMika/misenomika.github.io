@@ -1,0 +1,28 @@
+---
+title: "仿真世界与物理世界的边界
+——探讨logisim的“明显震荡”
+ "
+description: 
+date: 2026-06-25T11:55:55+08:00
+image: 
+math: 
+license: 
+comments: true
+draft: false
+categories:
+    - Tool-Usage
+tags:
+    - Logisim
+build:
+    list: always    # Change to "never" to hide the page from the list
+---
+当我们在学习ysyx到F阶段的时序逻辑电路部分时，往往容易在搭好了一个看似“正确”电路后，进行自动仿真，突然电路莫名奇妙地“爆红”
+甚至出现"明显振荡（Oscillation Apparent)”的错误，
+往往这些错误看起来会十分奇怪，因为这和我们学习到的理论不符。
+
+![图1: 这里的锁存器理论上是可以收敛到一个稳态的，但是在logisim的仿真中会出现错误 ](oscillation-preview.png)
+
+而且“如果你有两个这样的锁存器，并且在初始化其中一个之后断开另一个，那么即使之前是稳定的，你初始化的那个设备也会开始振荡。”
+
+![图2](another-oscillation.png)
+![图3](aonther-oscillation2.png)

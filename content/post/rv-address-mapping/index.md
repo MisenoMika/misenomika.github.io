@@ -9,11 +9,15 @@ comments: true
 draft: false
 categories:
     - RISC-V
+tags:
+    - PA
+    - RV32
+    - YSYX
 build:
     list: always    # Change to "never" to hide the page from the list
 ---
 
-# RISC-V RV32 的物理地址空间与内存映射
+## RISC-V RV32 的物理地址空间与内存映射
 
 初次接触PA实验RTFSC时，我一直很疑惑为什么客户内存是 `0x80000000` 开始的。
 因此和gpt老师探讨了一下，讨论内容也顺便记录下来，权当个学习笔记

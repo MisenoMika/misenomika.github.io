@@ -25,7 +25,7 @@ build:
 在.bashrc或.bash_profile或其他shell配置文件中添加如下代码：
 
 ```bash
-export PROMPT_COMMAND='printf "\e[6 q"' # set cursor to blinking bar
+export PROMPT_COMMAND='printf "\e[5 q"' # set cursor to blinking bar
 # \x30 change to blinking block
 # \x31 change to blinking block also
 # \x32 change to steady block
@@ -39,3 +39,13 @@ export PROMPT_COMMAND='printf "\e[6 q"' # set cursor to blinking bar
 
 PROMPT_COMMAND是一个环境变量，它的值会在每次显示shell提示符之前被执行。通过设置PROMPT_COMMAND，我们可以在每次显示提示符时执行一些命令来改变终端的行为。
 这个方法比视频内介绍的利用lazyvim的autocmd来改变光标样式更为直接和有效，因为它直接在shell层面上设置了光标样式，而不依赖于编辑器的行为（你不知道lazyvim还会在别的什么时候改变光标样式）
+
+但注意该方案只适用于bash，如果你使用的是zsh，则可通过在.zshrc中添加以下代码解决
+
+```zsh
+precmd() {
+    printf '\e[5 q'
+}
+```
+
+> 我只用过bash和zsh，其他shell如fishshell, nushell的在解决思路上应当也大差不差
