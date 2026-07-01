@@ -26,13 +26,12 @@ build:
 
 ```bash
 export PROMPT_COMMAND='printf "\e[5 q"' # set cursor to blinking bar
-# \x30 change to blinking block
-# \x31 change to blinking block also
-# \x32 change to steady block
-# \x33 change to blinking underline
-# \x34 change to steady underline
-# \x35 change to blinking bar
-# \x36 change to steady bar
+# \e[1 change to blinking block
+# \e[2 change to steady block
+# \e[3 change to blinking underline
+# \e[4 change to steady underline
+# \e[5 change to blinking bar
+# \e[6 change to steady bar
 ```
 
 ## 这是什么东西？
@@ -49,3 +48,5 @@ precmd() {
 ```
 
 > 我只用过bash和zsh，其他shell如fishshell, nushell的在解决思路上应当也大差不差
+
+另外根据我的使用体验，如果你使用的terminal emulator是kitty，上述设置默认不会生效，除非你在kitty.conf中关闭kitty对光标的控制
