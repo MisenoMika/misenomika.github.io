@@ -17,7 +17,7 @@ tags:
 build:
     list: always    # Change to "never" to hide the page from the list
 ---
-> 本文灵感来源于ysyx官方Q群用户“浪里个浪”对初学者使用Logisim时产生的对振荡问题的疑惑的解答。
+> 本文灵感来源于ysyx官方Q群用户“浪里至浪”对初学者使用Logisim时产生的对振荡问题的疑惑的解答。
 > 我在该大佬的解答上进一步地总结和扩展，得出本文。
 >
 ## 问题的提出

@@ -13,6 +13,10 @@ links:
     description: The Missing Semester of Your CS Education
     website: https://missing-semester-cn.github.io/
     image: https://avatars.githubusercontent.com/u/65452715?s=200&v=4
+  - title: lhh-blog
+    description: SUAT红豆老师的blog，欢迎围观www
+    website: http://www.lhh-redbean.cn/
+    image: readbean.jpg
 menu:
     main: 
         weight: 4
