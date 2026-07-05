@@ -10,7 +10,8 @@ license:
 comments: true
 draft: false
 categories:
-    - Tool-Usage
+    - Logisim
+    - Tool Usage
 tags:
     - Logisim
     - YSYX
