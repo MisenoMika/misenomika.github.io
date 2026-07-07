@@ -109,3 +109,29 @@
     }
 }
 
+[data-scheme="dark"] {
+  /* Catppuccin Mocha */
+
+  --body-background: #1e1e2e;
+  --card-background: #313244;
+  --card-background-selected: #45475a;
+
+  --accent-color: #89b4fa;
+  --accent-color-darker: #74c7ec;
+
+  --body-text-color: #cdd6f4;
+  --body-text-color-secondary: #bac2de;
+
+  --blockquote-background-color: #313244;
+
+  --link-color: #89b4fa;
+  --link-color-hover: #74c7ec;
+
+  --code-background-color: #181825;
+  --code-text-color: #f5c2e7;
+
+  --border-color: #45475a;
+
+  --table-border-color: #45475a;
+}
+

@@ -1,7 +1,7 @@
 ---
 title: "About me"
 date: 2026-06-18
-slug: "tags-color-guide"
+slug: "About me"
 menu:
     main:
         weight: 5
