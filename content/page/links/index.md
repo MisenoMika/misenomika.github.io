@@ -1,6 +1,14 @@
 ---
 title: Links
 links:
+  - title: lhh-blog
+    description: SUAT红豆老师的blog，欢迎围观www
+    website: http://www.lhh-redbean.cn/
+    image: readbean.jpg
+  - title: LunarDreams Blog
+    description: “我不是说过了吗，把你的余生交给我”
+    website: https://blog.lunardreams.top/
+    image: lcy-avatar.jpg
   - title: GitHub
     description: World's largest software development platform.
     website: https://github.com
@@ -13,10 +21,7 @@ links:
     description: The Missing Semester of Your CS Education
     website: https://missing-semester-cn.github.io/
     image: https://avatars.githubusercontent.com/u/65452715?s=200&v=4
-  - title: lhh-blog
-    description: SUAT红豆老师的blog，欢迎围观www
-    website: http://www.lhh-redbean.cn/
-    image: readbean.jpg
+  
 menu:
     main: 
         weight: 4
