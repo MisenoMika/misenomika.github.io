@@ -19,4 +19,4 @@ Hello! 👋👋👋
 
 - 使用的编辑器：VSCode、LazyVim
 - 对很多技术都感兴趣！不仅仅是集成电路相关的，但是目前还是个小白，仍在递归学习中
-- 🎵喜欢以Art Core、Hard Core、Orchestral为特色的音乐，fav: Laur、打打だいず、HyuN 等
+- 🎵喜欢Art Core、Hard Core、疾走钢琴，fav: Laur、打打だいず、HyuN 、blacky
